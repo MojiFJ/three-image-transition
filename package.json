@@ -1,0 +1,23 @@
+{
+  "name": "three-image-transition",
+  "version": "1.0.0",
+  "description": "Shader powered image transition using THREE.js",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "deploy": "npm run build && gh-pages -d dist"
+  },
+  "keywords": ["threejs", "webgl", "animation", "shader"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "three": "^0.181.1"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0",
+    "vite": "^7.2.2"
+  }
+}
